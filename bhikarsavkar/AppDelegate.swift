@@ -6,14 +6,29 @@
 //
 
 import UIKit
+import AVFoundation
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
-
+    var bgMusic:AVAudioPlayer!
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        // Background music
+        let path = Bundle.main.path(forResource: "bgmusic.mp3", ofType: nil)!
+        let url = URL(fileURLWithPath: path)
+        
+        do {
+            bgMusic = try AVAudioPlayer(contentsOf: url)
+            bgMusic?.play()
+        }
+        catch {
+            // Could not load music file
+            print("Error: Failed to load audio file for background music!")
+        }
+        
         return true
     }
 

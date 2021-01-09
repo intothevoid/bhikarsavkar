@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1B6AE8B025A9A98E00D7F02E /* bgmusic.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1B6AE8AF25A9A98E00D7F02E /* bgmusic.mp3 */; };
+		1B6AE8B525A9AADD00D7F02E /* shuffle.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1B6AE8B225A9AADC00D7F02E /* shuffle.wav */; };
+		1B6AE8B625A9AADD00D7F02E /* victory.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1B6AE8B325A9AADD00D7F02E /* victory.wav */; };
+		1B6AE8B725A9AADD00D7F02E /* defeat.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1B6AE8B425A9AADD00D7F02E /* defeat.wav */; };
 		1BF3744D25A841970020B026 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BF3744C25A841970020B026 /* AppDelegate.swift */; };
 		1BF3744F25A841970020B026 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BF3744E25A841970020B026 /* SceneDelegate.swift */; };
 		1BF3745125A841970020B026 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BF3745025A841970020B026 /* ViewController.swift */; };
@@ -16,6 +20,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1B6AE8AF25A9A98E00D7F02E /* bgmusic.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = bgmusic.mp3; path = bhikarsavkar/sounds/bgmusic.mp3; sourceTree = "<group>"; };
+		1B6AE8B225A9AADC00D7F02E /* shuffle.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = shuffle.wav; path = bhikarsavkar/sounds/shuffle.wav; sourceTree = "<group>"; };
+		1B6AE8B325A9AADD00D7F02E /* victory.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = victory.wav; path = bhikarsavkar/sounds/victory.wav; sourceTree = "<group>"; };
+		1B6AE8B425A9AADD00D7F02E /* defeat.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = defeat.wav; path = bhikarsavkar/sounds/defeat.wav; sourceTree = "<group>"; };
 		1BF3744925A841970020B026 /* bhikarsavkar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = bhikarsavkar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1BF3744C25A841970020B026 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1BF3744E25A841970020B026 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -40,6 +48,10 @@
 		1BF3744025A841970020B026 = {
 			isa = PBXGroup;
 			children = (
+				1B6AE8B425A9AADD00D7F02E /* defeat.wav */,
+				1B6AE8B225A9AADC00D7F02E /* shuffle.wav */,
+				1B6AE8B325A9AADD00D7F02E /* victory.wav */,
+				1B6AE8AF25A9A98E00D7F02E /* bgmusic.mp3 */,
 				1BF3744B25A841970020B026 /* bhikarsavkar */,
 				1BF3744A25A841970020B026 /* Products */,
 			);
@@ -124,6 +136,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1B6AE8B525A9AADD00D7F02E /* shuffle.wav in Resources */,
+				1B6AE8B625A9AADD00D7F02E /* victory.wav in Resources */,
+				1B6AE8B725A9AADD00D7F02E /* defeat.wav in Resources */,
+				1B6AE8B025A9A98E00D7F02E /* bgmusic.mp3 in Resources */,
 				1BF3745925A841980020B026 /* LaunchScreen.storyboard in Resources */,
 				1BF3745625A841980020B026 /* Assets.xcassets in Resources */,
 				1BF3745425A841970020B026 /* Main.storyboard in Resources */,
