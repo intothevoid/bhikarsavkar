@@ -30,8 +30,8 @@
                                         <rect key="frame" x="0.0" y="0.0" width="136" height="150"/>
                                     </imageView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Bhikar Savkar" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="m8w-f5-V2B">
-                                        <rect key="frame" x="146" y="19" width="136" height="112"/>
-                                        <fontDescription key="fontDescription" name="Baskerville" family="Baskerville" pointSize="48"/>
+                                        <rect key="frame" x="146" y="32.666666666666664" width="136" height="84.666666666666686"/>
+                                        <fontDescription key="fontDescription" name="Baskerville" family="Baskerville" pointSize="36"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
                                         <color key="shadowColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -59,9 +59,12 @@
                                             </imageView>
                                         </subviews>
                                     </stackView>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JT5-Mq-j5A">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JT5-Mq-j5A" userLabel="Deal Button">
                                         <rect key="frame" x="104.33333333333334" y="199.99999999999994" width="81.666666666666657" height="31"/>
                                         <state key="normal" image="dealbutton"/>
+                                        <connections>
+                                            <action selector="dealTap:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ISh-VW-b36"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                             </stackView>
@@ -126,6 +129,12 @@
                             <constraint firstItem="ovB-xC-wNK" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="xsV-ad-8XA"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="leftCardView" destination="QFR-Yt-qdx" id="2Zl-3C-uvx"/>
+                        <outlet property="leftScoreLabel" destination="Nbb-WV-sNh" id="fhS-kN-E2g"/>
+                        <outlet property="rightCardView" destination="W5V-wH-Dls" id="off-mX-pij"/>
+                        <outlet property="rightScoreLabel" destination="fwI-mq-bD8" id="vbY-uf-rh2"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
